@@ -7,6 +7,10 @@ theme: hextra
 enableRobotsTXT: true
 enableGitInfo: false
 
+services:
+  googleAnalytics:
+    ID: G-TTN10NJDZS
+
 markup:
   goldmark:
     renderer:
