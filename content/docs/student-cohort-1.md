@@ -8,5 +8,5 @@ I'm selecting 5-10 students for a one-month guided program to help them transiti
 This is not intended for working professionals or independent practitioners. The program is completely free, and you'll get access to coding agents for the duration of the cohort.
 
 {{< callout type="info" >}}
-**Applications are open.** If this sounds like you, fill out the form: [Apply for Student Cohort 1](https://forms.google.com)
+**Applications are open.** If this sounds like you, fill out the form: [Apply for Student Cohort 1](https://forms.gle/uiMyZeLbpYMGQpbV8)
 {{< /callout >}}
