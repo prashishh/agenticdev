@@ -6,8 +6,6 @@ updated: "March 2026"
 next: /docs/module-0/
 ---
 
-# The Agentic Engineering Guide for Software Teams
-
 This is an open, evolving guide for engineering teams learning to work with coding agents. __You are free to use it, adapt it, and share it with your own team or organization.__
 
 The tools, models, and workflows described here reflect what is available as of _March 2026._ This space moves fast and the best practices here will continue to be refined as the ecosystem matures.
