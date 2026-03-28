@@ -1,0 +1,106 @@
+:root {
+  --primary-hue: 17deg;
+  --primary-saturation: 100%;
+}
+
+/* Softer white background for light mode */
+html:not(.dark) {
+  --bg-primary: #faf9f7;
+}
+
+html:not(.dark) body {
+  background-color: #faf9f7;
+}
+
+html:not(.dark) .hextra-content {
+  background-color: #faf9f7;
+}
+
+html:not(.dark) nav.hextra-nav {
+  background-color: #faf9f7;
+}
+
+/* Override Hextra's default white backgrounds */
+html:not(.dark) .sidebar-container {
+  background-color: #faf9f7;
+}
+
+/* Softer backgrounds across the board */
+html:not(.dark) {
+  background: #faf9f7 !important;
+}
+
+html:not(.dark) [class*="bg-white"] {
+  background-color: #faf9f7 !important;
+}
+
+html:not(.dark) .hx-bg-white {
+  background-color: #faf9f7 !important;
+}
+
+/* Make the nav bar match */
+html:not(.dark) .nextra-nav-container,
+html:not(.dark) nav,
+html:not(.dark) aside {
+  background-color: #faf9f7;
+}
+
+/* Last updated badge */
+.last-updated-badge {
+  font-size: 0.75rem;
+  color: #6b7280;
+  background-color: #f3f4f6;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+.dark .last-updated-badge {
+  color: #9ca3af;
+  background-color: #374151;
+}
+
+/* Tooltip for technical terms */
+.tooltip-term {
+  position: relative;
+  border-bottom: 1px dotted #9ca3af;
+  cursor: help;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1f2937;
+  color: #f9fafb;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  width: max-content;
+  max-width: 260px;
+  z-index: 50;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1f2937 transparent transparent transparent;
+}
+
+.tooltip-term:hover .tooltip-text,
+.tooltip-term:focus .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

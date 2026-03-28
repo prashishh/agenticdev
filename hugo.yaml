@@ -1,0 +1,40 @@
+baseURL: https://agentic.prashish.xyz/
+title: Agentic Engineering Guide
+languageCode: en-us
+
+theme: hextra
+
+enableRobotsTXT: true
+enableGitInfo: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - identifier: prashish
+      name: prashish.xyz ↗
+      url: "https://prashish.xyz"
+      weight: 1
+
+params:
+  description: The Agentic Engineering Guide for Software Teams — Shipping Software with Coding Agents
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  page:
+    width: wide
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+  editURL:
+    enable: false
+  theme:
+    default: light
+    displayToggle: true
+  customCSS:
+    - css/custom.css
