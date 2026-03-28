@@ -16,6 +16,10 @@ markup:
 
 menu:
   main:
+    - identifier: docs
+      name: Guide
+      pageRef: /docs/
+      weight: 0
     - identifier: prashish
       name: prashish.xyz ↗
       url: "https://prashish.xyz"
