@@ -1,0 +1,52 @@
+# Agentic Development for Software Engineers
+
+> A free, practical guide on how to work effectively with coding agents. Learn how to structure sessions, review output, manage costs, and set up the workflows that make agents produce consistent results.
+
+## Overview
+
+This is an open, evolving guide for engineering teams learning to work with coding agents. The tools, models, and workflows described here reflect what is available as of March 2026.
+
+The fundamentals, like how to structure context, decompose tasks, and review output, will remain relevant regardless of which tools you use.
+
+## Who This Is For
+
+- Software engineering teams who write code daily but haven't started using coding agents
+- Teams that tried coding agents and hit friction early on
+- Engineers already using coding agents as helpers who want to transition to end-to-end agentic workflows
+- Individual software engineers who want to learn the basics of agentic coding from the ground up
+
+## Modules
+
+### Module 0: Foundations of Agentic Engineering
+
+Covers the core mental model, the current landscape of tools, models, and harnesses, and the practical knowledge needed to start working with coding agents.
+
+Topics:
+- What a coding agent is and how it differs from autocomplete and chat assistants
+- Harnesses (Claude Code, Cursor, Aider, Codex CLI, Gemini CLI, Windsurf, Devin, Factory, Kilo Code) and models (Claude Opus 4.6, Claude Sonnet 4.6, GPT 5.3 Codex, Gemini 2.5 Pro, DeepSeek R1, Qwen 3.5, Llama 4 Code, MiniMax Text-01, GLM-4)
+- Tokens, context windows, prompt caching, and context compaction
+- How the agent sees your codebase and navigates files through tool use
+- Working safely with git, common problems, and recovery
+- Data privacy, where your code is sent, and cost breakdowns
+- Rules files (CLAUDE.md, AGENTS.md, .cursor/rules/), skills, hooks, and session workflow
+
+### Module 1: Environment Setup & First Session (Coming Soon)
+
+Covers picking a harness, installing it, and running your first agent session on a real codebase.
+
+Topics:
+- Evaluating and selecting a harness for your team
+- Setting up an opinionated starter framework
+- Completing a scoped task end-to-end
+- Orchestrating multiple agents
+- Team debrief on what worked and what didn't
+
+## Student Cohort
+
+A one-month guided program for students transitioning from traditional coding to agentic development. Apply at: https://forms.gle/uiMyZeLbpYMGQpbV8
+
+## Source
+
+- Website: https://agenticdev.prashish.xyz
+- Module 0: https://agenticdev.prashish.xyz/docs/module-0/
+- Module 1: https://agenticdev.prashish.xyz/docs/module-1/
