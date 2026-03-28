@@ -1,5 +1,6 @@
 ---
-title: Overview
+title: Agentic Development for Software Engineers
+description: A free, practical guide on how to work effectively with coding agents. Learn how to structure sessions, review output, manage costs, and set up the workflows that make agents produce consistent results.
 weight: -1
 updated: "March 2026"
 next: /docs/module-0/
