@@ -14,7 +14,7 @@ The tools, models, and workflows described here reflect what is available as of 
 The fundamentals, like how to structure context, decompose tasks, and review output, will remain relevant regardless of which tools you use. Everything else should be held loosely and updated as you learn.
 
 {{< callout type="tip" >}}
-**This guide is also agent-friendly.** You can paste it directly into Claude, ChatGPT, Z.ai, Gemini or any other LLM to generate a summary, ask specific questions, or explore ideas in conversation. Tools like NotebookLM can turn it into audio, summaries, or a study guide. The content is structured in plain Markdown with clear section headers so that agents and readers can navigate it equally well.
+**This guide is also agent-friendly.** You can paste it directly into Claude, ChatGPT, Z.ai, Gemini, Deepseek, Minimax or any other LLM to generate a summary, ask specific questions, or explore ideas in conversation. Tools like NotebookLM can turn it into audio, summaries, or a study guide. The content is structured in plain Markdown with clear section headers so that agents and readers can navigate it equally well.
 {{< /callout >}}
 
 ---
